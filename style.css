@@ -5,17 +5,16 @@ body {
 }
 
 .bg_img {
-  
   background: url(./background1.png) center no-repeat fixed;
-    height: 100%;
-    background-size: cover; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h2 {
-  padding-top: 20px;;
+  padding-top: 20px;
   margin: 0;
   color: #7061cd;
   font-size: 45px;
@@ -61,7 +60,7 @@ h2 {
   color: #ae4394;
   font-family: Montserrat;
   text-align: center;
-} 
+}
 
 .letter {
   font-size: 15px;
@@ -73,19 +72,4 @@ h2 {
   font-size: 10px;
   font-weight: 200;
   pointer-events: none;
-}
-
-.btn-a {
-  background-color: transparent;
-  border: solid 2px #ae4394;
-  border-radius: 6px;
-  width: 135px;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ae4394;
-  font-family: Montserrat;
-  text-align: center;
 }
